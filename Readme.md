@@ -7,7 +7,7 @@ npm run dev
 
 ## conception
 
- J’ai perdu du temps au début pour essayer de chercher d’autres structures de données qui pourrait être plus adaptée et qui aurait une plus faible complexité. j’ai regardé les structures en arbre mais cela ne correspondait pas vraiment à la tâche.
+ J’ai pris du temps au début pour essayer de chercher d’autres structures de données qui pourrait être plus adaptée et qui aurait une plus faible complexité. j’ai regardé les structures en arbre mais cela ne correspondait pas vraiment à la tâche.
 
 Pour essayer de gagner du temps et éviter d’avoir à tout charger dans la mémoire au lancement du serveur j’ai créé un service qui parse le fichier tsv en JSON. Mais l’écriture sur le disque était trop longue et même si le serveur ne générait un fichier JSON que si il n’y en avait pas, la lecture du fichier JSON restait relativement lente. 
 
